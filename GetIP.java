@@ -5,4 +5,3 @@ class GetIP{
 		System.out.println("my ip address is : "+mi.getHostAddress());
 	}
 }
-//192.168.1.16
