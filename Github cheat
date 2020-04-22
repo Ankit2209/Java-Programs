@@ -1,0 +1,27 @@
+Github cheat
+git --version //check the version of the git
+git log //check name and email add or see who commit file
+git status //just check the status
+git init //connect Folder/file with  github
+git add . // add all the changing file and skipp deleted files
+git add -A // staged everything
+git add -u // staged modified and deleted ,without new
+git commit -m "message" //commit the file into git config --global user.name "name" //full computer user name
+git config --global Email.name "ename"
+git remote add origion link //link directory into your github directory
+git push -u origin master // save folder code into your github directory
+git pull origin master/git pull   //save file from github to your pc
+git diff file name.extension //see  what changes happen in this file
+git diff --staged file name.ext //see what changess in staged file after add file
+git reset filename.ext //undo to previous after changes
+git chackout filename.ext //next step of above
+git chackout . //undo all changes
+git clone ssh-link .// clone of any other person's code that you want and . help to save file in choosen folder
+touch .gitignore // create ignore things in folder
+notepad .gitignore // write here what u want to ingnore loke *.class
+git branch // show branch name
+git branch new-branch-name //create new branch
+git chackout branch1/branch2 //switch to another branch and git push origin branch-name to push your file in github
+git merge branch-name //merge branch into master branch
+git branch -d branch-name //delete branch form your pc
+git push origin --delete branch-name //delete branch from github
